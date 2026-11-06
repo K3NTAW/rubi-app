@@ -1,0 +1,99 @@
+{
+  "schema": "1",
+  "sources": {
+    "jmdict": {
+      "name": "JMdict (English, with example sentences), via jmdict-simplified",
+      "version": "3.6.2+20261102210542",
+      "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261102210542/jmdict-examples-eng-3.6.2%2B20261102210542.json.tgz",
+      "sha256": "8229584cd913e5b92ff34d073f24d15d163425a8a53d1bebc2fb4f40024273fa",
+      "licence": "CC BY-SA 4.0 (EDRDG licence statement)",
+      "licence_url": "https://www.edrdg.org/edrdg/licence.html",
+      "project_url": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project"
+    },
+    "jmnedict": {
+      "name": "JMnedict, via jmdict-simplified",
+      "version": "3.6.2+20261102210542",
+      "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261102210542/jmnedict-all-3.6.2%2B20261102210542.json.tgz",
+      "sha256": "6061b47f8166ee8f67567ad04ef709936fdaf2913dae56a339fc94f50baac538",
+      "licence": "CC BY-SA 4.0 (EDRDG licence statement)",
+      "licence_url": "https://www.edrdg.org/edrdg/licence.html",
+      "project_url": "https://www.edrdg.org/enamdict/enamdict_doc.html"
+    },
+    "kanjidic2": {
+      "name": "KANJIDIC2 (English), via jmdict-simplified",
+      "version": "3.6.2+20261102210542",
+      "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261102210542/kanjidic2-en-3.6.2%2B20261102210542.json.tgz",
+      "sha256": "6ee47e719401bee69fe6b853344383031b3644cef477a8c784bc4d49e7b9a082",
+      "licence": "CC BY-SA 4.0 (EDRDG licence statement). SKIP codes and dictionary references carry their own conditions and are not used.",
+      "licence_url": "https://www.edrdg.org/edrdg/licence.html",
+      "project_url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+    },
+    "furigana": {
+      "name": "JmdictFurigana",
+      "version": "2.3.1+2026-10-25",
+      "url": "https://github.com/Doublevil/JmdictFurigana/releases/download/2.3.1%2B2026-10-25/JmdictFurigana.json.tar.gz",
+      "sha256": "12258924778cbca937521ccd9b0c41d0b8ff7eedab47c4399c4515cfd5d3cc8c",
+      "licence": "CC BY-SA 4.0, as JMdict",
+      "licence_url": "https://github.com/Doublevil/JmdictFurigana",
+      "project_url": "https://github.com/Doublevil/JmdictFurigana"
+    },
+    "jlpt": {
+      "name": "JLPT word levels, yomitan-jlpt-vocab (Jonathan Waller's unofficial lists with JMdict ids)",
+      "version": "git b062d4e38c4bdd0950ae1d4ec55f04b176182e03",
+      "url": "https://github.com/stephenmk/yomitan-jlpt-vocab/archive/b062d4e38c4bdd0950ae1d4ec55f04b176182e03.tar.gz",
+      "sha256": "9f4c8b9ac7a0a8e3516aa079fb52c1ca1b9381a9de464cf417e908c01cf46105",
+      "licence": "CC BY-SA 4.0. Waller's lists: Creative Commons BY.",
+      "licence_url": "https://github.com/stephenmk/yomitan-jlpt-vocab/blob/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/LICENSE.txt",
+      "project_url": "https://github.com/stephenmk/yomitan-jlpt-vocab"
+    },
+    "mecab": {
+      "name": "MeCab and mecab-ipadic (IPADIC 2.7.0-20070801)",
+      "version": "git 61b90ba6e669dc2d7d533d4a80d206f3b31d52b1",
+      "url": "https://github.com/taku910/mecab/archive/61b90ba6e669dc2d7d533d4a80d206f3b31d52b1.tar.gz",
+      "sha256": "7ad44f987ae0b7fd345c72a4b67e14dbe0f4bd1669d247a8aaeb0f15218a3fd1",
+      "licence": "MeCab: BSD option of GPL/LGPL/BSD. IPADIC: NAIST and ICOT notice.",
+      "licence_url": "https://github.com/taku910/mecab/blob/master/mecab/BSD",
+      "project_url": "https://taku910.github.io/mecab/"
+    }
+  },
+  "fonts": {
+    "name": "OFL reading fonts, from google/fonts",
+    "version": "google/fonts 2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc",
+    "licence": "SIL Open Font License 1.1",
+    "licence_url": "https://openfontlicense.org/"
+  },
+  "files": {
+    "mecab-ipadic/sys.dic": {
+      "size": 49198251,
+      "sha256": "7b912bfe6d67824dd378187737c9c2c09254cf07a072e65349ff1585ea348432"
+    },
+    "mecab-ipadic/matrix.bin": {
+      "size": 3463716,
+      "sha256": "ee44d7350cdcb680ebd699f83e121be1dc63310f8832d55bcb537a068177611a"
+    },
+    "mecab-ipadic/char.bin": {
+      "size": 262496,
+      "sha256": "81bba502ae48fa005a374819f15e44452eb68086a8b323ec20a044d514400832"
+    },
+    "mecab-ipadic/unk.dic": {
+      "size": 5690,
+      "sha256": "6903ccc5b0bc4dceeaa53b005da1b5b6c60636b581ce4aa6b9c41997d958e473"
+    },
+    "mecab-ipadic/dicrc": {
+      "size": 79,
+      "sha256": "1264d62ee2654e5690818dd3409fce0c01e5bb82583cb51ac9b2e887f1764383"
+    }
+  },
+  "counts": {
+    "entries": 219009,
+    "kanji_forms": 233760,
+    "readings": 265951,
+    "senses": 253928,
+    "examples": 26377,
+    "example_links": 32434,
+    "name_rows": 662839,
+    "kanji": 10384,
+    "furigana": 236694,
+    "jlpt_entries": 7747
+  }
+}
